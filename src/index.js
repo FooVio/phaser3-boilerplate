@@ -12,6 +12,5 @@ const config = {
   scene: [Boot],
 };
 
-const game = new Phaser.Game(config);
-game();
+const game = new Phaser.Game(config); // eslint-disable-line no-unused-vars
 
